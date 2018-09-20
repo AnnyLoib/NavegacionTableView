@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet weak var tbMaterias: UITableView!
+    
     let materias :  [Materia] = [Materia(nombre: "Programación de dispositivos moviles"),
                                  Materia(nombre: "Redes Computacionales"),
                                  Materia(nombre: "Animación por Computadora I"),
@@ -48,7 +50,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToDetalleMateria" {
+            let destino = segue.destination as? DetalleMateriaController
+            destino?.materia = materias[(tbMaterias.indexPathForSelectedRow?.row)!]
+    }
 
 }
-
+}

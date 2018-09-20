@@ -16,6 +16,7 @@
 		3D8CEFCF21529CA50043FE19 /* NavegacionTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8CEFCE21529CA50043FE19 /* NavegacionTableViewUITests.swift */; };
 		3D8CEFE02152A6290043FE19 /* Materia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8CEFDF2152A6290043FE19 /* Materia.swift */; };
 		3D8CEFE22152AC5C0043FE19 /* CeldaMateria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8CEFE12152AC5C0043FE19 /* CeldaMateria.swift */; };
+		3DC1784821542B1000942D35 /* DetalleMateriaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1784721542B1000942D35 /* DetalleMateriaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3D8CEFD021529CA50043FE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D8CEFDF2152A6290043FE19 /* Materia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materia.swift; sourceTree = "<group>"; };
 		3D8CEFE12152AC5C0043FE19 /* CeldaMateria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMateria.swift; sourceTree = "<group>"; };
+		3DC1784721542B1000942D35 /* DetalleMateriaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleMateriaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			children = (
 				3D8CEFB021529C950043FE19 /* ViewController.swift */,
 				3D8CEFE12152AC5C0043FE19 /* CeldaMateria.swift */,
+				3DC1784721542B1000942D35 /* DetalleMateriaController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			files = (
 				3D8CEFB121529C950043FE19 /* ViewController.swift in Sources */,
 				3D8CEFE22152AC5C0043FE19 /* CeldaMateria.swift in Sources */,
+				3DC1784821542B1000942D35 /* DetalleMateriaController.swift in Sources */,
 				3D8CEFAF21529C950043FE19 /* AppDelegate.swift in Sources */,
 				3D8CEFE02152A6290043FE19 /* Materia.swift in Sources */,
 			);
